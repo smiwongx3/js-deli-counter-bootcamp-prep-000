@@ -1,5 +1,5 @@
 katzDeliLine = []
 
-function takeANumber(name) {
-   console.log("Welcome, " + name + ". You are number " + " in line.")
+function takeANumber(lineNumber, name) {
+   console.log("Welcome, " + name + ". You are number " + lineNumber+1 + " in line.")
 }
